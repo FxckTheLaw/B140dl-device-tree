@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/blu/B140DL/recovery
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := B140DL
-PRODUCT_NAME := omni_B140DL
+PRODUCT_NAME := twrp_B140DL
 PRODUCT_BRAND := View
 PRODUCT_MODEL := B140DL
 PRODUCT_MANUFACTURER := Blu
