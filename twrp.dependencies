@@ -1,7 +1,7 @@
 [
   {
     "remote": "TeamWin",
-    "repository": "android_device_asus_sm8250-common",
+    "repository": "twrp_B140DL",
     "target_path": "device/blu/B149DL",
     "branch": "android-12.1"
   }
