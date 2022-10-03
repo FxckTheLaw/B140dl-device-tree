@@ -1,5 +1,8 @@
 [
   {
-   
+    "remote": "TeamWin",
+    "repository": "android_device_mediatek_sprout-common",
+    "target_path": "device/mediatek/sprout-common",
+    "branch": "cm-13.0"
   }
 ]
