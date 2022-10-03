@@ -1,14 +1,7 @@
-#
-# Copyright (C) 2020 The Android Open Source Project
-# Copyright (C) 2020 The TWRP Open Source Project
-# Copyright (C) 2020 SebaUbuntu's TWRP device tree generator
-# Copyright (C) 2019-Present A-Team Digital Solutions
-#
+# Replace $$DEVICE$$ with your Device Name's Value.
+# Replace $$BRAND$$ with your Brand's / Manufacturer's Value.
+# The part of last line in mine looks like "omni_Primo_RX5.mk"
 
-PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_B140DL.mk
+LOCAL_PATH := device/$$BRAND$$/$$DEVICE$$
 
-COMMON_LUNCH_CHOICES := \
-    twrp_B140DL-user \
-    twrp_B140DL-userdebug \
-    twrp_B140DL-eng
+PRODUCT_MAKEFILES := $(LOCAL_PATH)/twrp_$$DEVICE$$.mk
