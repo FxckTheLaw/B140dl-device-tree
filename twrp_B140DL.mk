@@ -15,7 +15,7 @@ $(call inherit-product, device/blu/B140DL/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
-$(call inherit-product, vendor/twrp/config/gsm.mk)
+
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/blu/B140DL/recovery/root,recovery/root)
 
