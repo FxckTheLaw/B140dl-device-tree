@@ -9,9 +9,9 @@ DEVICE_PATH := device/blu/B140DL
 
 # Architecture
 TARGET_ARCH := arm64
-TARGET_ARCH_VARIANT := arm64-v8a
+TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_ABI := arm64-v8a
-TARGET_CPU_ABI2 := armeabi-v7a
+TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := generic
 
 # Assert
