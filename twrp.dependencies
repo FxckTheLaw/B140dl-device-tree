@@ -1,8 +1,8 @@
 [
   {
-    "remote": "TeamWin",
+    "remote": "oakieville",
     "repository": "twrp_B140DL",
-    "target_path": "device/blu/B149DL",
-    "branch": "android-12.1"
+    "target_path": "device/blu/B140DL",
+    "branch": "main"
   }
 ]
