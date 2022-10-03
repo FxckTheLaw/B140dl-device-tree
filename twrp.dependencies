@@ -1,7 +1,7 @@
 [
   {
     "remote": "oakieville",
-    "repository": "twrp_B140DL",
+    "repository": "B140dl-device-tree",
     "target_path": "device/blu/B140DL",
     "branch": "main"
   }
