@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_B140DL.mk
+    $(LOCAL_DIR)/twrp_B140DL.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_B140DL-user \
-    omni_B140DL-userdebug \
-    omni_B140DL-eng
+    twrp_B140DL-user \
+    twrp_B140DL-userdebug \
+    twrp_B140DL-eng
